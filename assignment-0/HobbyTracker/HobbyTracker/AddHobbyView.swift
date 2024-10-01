@@ -14,6 +14,7 @@ struct AddHobbyView: View {
     @State private var selectedEmoji: String = ""
     @State private var showAlert = false
     @State private var alertMessage = ""
+    @FocusState private var isTextFieldFocused: Bool
     
     let emojis = ["📚", "🏊‍♀️", "🎮", "🍳", "✈️", "🎨", "💃", "🌱", "🏃‍♂️", "✍️", "📷", "🎧", "🎸", "🎤", "🎬", "🏀", "🏈", "⚽️", "🏐", "🎾"]
     
@@ -38,6 +39,15 @@ struct AddHobbyView: View {
                 .cornerRadius(8)
                 .shadow(radius: 1)
                 .padding(.horizontal)
+                .focused($isTextFieldFocused)
+                .toolbar {
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isTextFieldFocused = false
+                        }
+                    }
+                }
             
             Picker("Select an Emoji", selection: $selectedEmoji) {
                 Text("Select an Emoji").tag("")
@@ -79,9 +89,12 @@ struct AddHobbyView: View {
         }
         .padding()
         .background(Color(red: 245/255, green: 245/255, blue: 220/255).ignoresSafeArea()) // beige-colored background
+        .onTapGesture {
+            isTextFieldFocused = false
+        }
         .alert(isPresented: $showAlert) {
-           Alert(title: Text("Error"), message: Text(alertMessage), dismissButton: .cancel())
-       }
+            Alert(title: Text("Error"), message: Text(alertMessage), dismissButton: .cancel())
+        }
     }
     
     // Helper function to check if the input is valid length
