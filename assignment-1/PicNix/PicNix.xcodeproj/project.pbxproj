@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F2927E2CC4CB59009A03BA /* PicNixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2927D2CC4CB59009A03BA /* PicNixApp.swift */; };
+		70F292822CC4CB5A009A03BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F292812CC4CB5A009A03BA /* Assets.xcassets */; };
+		70F292852CC4CB5A009A03BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F292842CC4CB5A009A03BA /* Preview Assets.xcassets */; };
+		70F292AE2CC4D21D009A03BA /* PicNixPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F292AD2CC4D21D009A03BA /* PicNixPost.swift */; };
+		70F292B02CC4D25C009A03BA /* PicNixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F292AF2CC4D25C009A03BA /* PicNixViewModel.swift */; };
+		70F292B22CC4D27C009A03BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F292B12CC4D27C009A03BA /* HomeView.swift */; };
+		70F292B42CC4D2A1009A03BA /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F292B32CC4D2A1009A03BA /* PostDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F2928C2CC4CB5A009A03BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F292722CC4CB59009A03BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F292792CC4CB59009A03BA;
+			remoteInfo = PicNix;
+		};
+		70F292962CC4CB5A009A03BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F292722CC4CB59009A03BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F292792CC4CB59009A03BA;
+			remoteInfo = PicNix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70F2927A2CC4CB59009A03BA /* PicNix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicNix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F2927D2CC4CB59009A03BA /* PicNixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNixApp.swift; sourceTree = "<group>"; };
+		70F292812CC4CB5A009A03BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F292842CC4CB5A009A03BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70F292862CC4CB5A009A03BA /* PicNix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicNix.entitlements; sourceTree = "<group>"; };
+		70F2928B2CC4CB5A009A03BA /* PicNixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F292952CC4CB5A009A03BA /* PicNixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F292AD2CC4D21D009A03BA /* PicNixPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNixPost.swift; sourceTree = "<group>"; };
+		70F292AF2CC4D25C009A03BA /* PicNixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNixViewModel.swift; sourceTree = "<group>"; };
+		70F292B12CC4D27C009A03BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		70F292B32CC4D2A1009A03BA /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F292772CC4CB59009A03BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292882CC4CB5A009A03BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292922CC4CB5A009A03BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F292712CC4CB59009A03BA = {
+			isa = PBXGroup;
+			children = (
+				70F2927C2CC4CB59009A03BA /* PicNix */,
+				70F2927B2CC4CB59009A03BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F2927B2CC4CB59009A03BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F2927A2CC4CB59009A03BA /* PicNix.app */,
+				70F2928B2CC4CB5A009A03BA /* PicNixTests.xctest */,
+				70F292952CC4CB5A009A03BA /* PicNixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F2927C2CC4CB59009A03BA /* PicNix */ = {
+			isa = PBXGroup;
+			children = (
+				70F292AC2CC4CE80009A03BA /* Model */,
+				70F292AB2CC4CE51009A03BA /* View */,
+				70F292AA2CC4CE46009A03BA /* ViewModel */,
+				70F2927D2CC4CB59009A03BA /* PicNixApp.swift */,
+				70F292812CC4CB5A009A03BA /* Assets.xcassets */,
+				70F292862CC4CB5A009A03BA /* PicNix.entitlements */,
+				70F292832CC4CB5A009A03BA /* Preview Content */,
+			);
+			path = PicNix;
+			sourceTree = "<group>";
+		};
+		70F292832CC4CB5A009A03BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70F292842CC4CB5A009A03BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70F292AA2CC4CE46009A03BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70F292AF2CC4D25C009A03BA /* PicNixViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70F292AB2CC4CE51009A03BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70F292B12CC4D27C009A03BA /* HomeView.swift */,
+				70F292B32CC4D2A1009A03BA /* PostDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70F292AC2CC4CE80009A03BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70F292AD2CC4D21D009A03BA /* PicNixPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F292792CC4CB59009A03BA /* PicNix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F2929F2CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNix" */;
+			buildPhases = (
+				70F292762CC4CB59009A03BA /* Sources */,
+				70F292772CC4CB59009A03BA /* Frameworks */,
+				70F292782CC4CB59009A03BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicNix;
+			productName = PicNix;
+			productReference = 70F2927A2CC4CB59009A03BA /* PicNix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F2928A2CC4CB5A009A03BA /* PicNixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F292A22CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNixTests" */;
+			buildPhases = (
+				70F292872CC4CB5A009A03BA /* Sources */,
+				70F292882CC4CB5A009A03BA /* Frameworks */,
+				70F292892CC4CB5A009A03BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F2928D2CC4CB5A009A03BA /* PBXTargetDependency */,
+			);
+			name = PicNixTests;
+			productName = PicNixTests;
+			productReference = 70F2928B2CC4CB5A009A03BA /* PicNixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70F292942CC4CB5A009A03BA /* PicNixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F292A52CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNixUITests" */;
+			buildPhases = (
+				70F292912CC4CB5A009A03BA /* Sources */,
+				70F292922CC4CB5A009A03BA /* Frameworks */,
+				70F292932CC4CB5A009A03BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F292972CC4CB5A009A03BA /* PBXTargetDependency */,
+			);
+			name = PicNixUITests;
+			productName = PicNixUITests;
+			productReference = 70F292952CC4CB5A009A03BA /* PicNixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F292722CC4CB59009A03BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					70F292792CC4CB59009A03BA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					70F2928A2CC4CB5A009A03BA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 70F292792CC4CB59009A03BA;
+					};
+					70F292942CC4CB5A009A03BA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 70F292792CC4CB59009A03BA;
+					};
+				};
+			};
+			buildConfigurationList = 70F292752CC4CB59009A03BA /* Build configuration list for PBXProject "PicNix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F292712CC4CB59009A03BA;
+			productRefGroup = 70F2927B2CC4CB59009A03BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F292792CC4CB59009A03BA /* PicNix */,
+				70F2928A2CC4CB5A009A03BA /* PicNixTests */,
+				70F292942CC4CB5A009A03BA /* PicNixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F292782CC4CB59009A03BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F292852CC4CB5A009A03BA /* Preview Assets.xcassets in Resources */,
+				70F292822CC4CB5A009A03BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292892CC4CB5A009A03BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292932CC4CB5A009A03BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F292762CC4CB59009A03BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F292AE2CC4D21D009A03BA /* PicNixPost.swift in Sources */,
+				70F2927E2CC4CB59009A03BA /* PicNixApp.swift in Sources */,
+				70F292B42CC4D2A1009A03BA /* PostDetailView.swift in Sources */,
+				70F292B22CC4D27C009A03BA /* HomeView.swift in Sources */,
+				70F292B02CC4D25C009A03BA /* PicNixViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292872CC4CB5A009A03BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F292912CC4CB5A009A03BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F2928D2CC4CB5A009A03BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F292792CC4CB59009A03BA /* PicNix */;
+			targetProxy = 70F2928C2CC4CB5A009A03BA /* PBXContainerItemProxy */;
+		};
+		70F292972CC4CB5A009A03BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F292792CC4CB59009A03BA /* PicNix */;
+			targetProxy = 70F292962CC4CB5A009A03BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70F2929D2CC4CB5A009A03BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70F2929E2CC4CB5A009A03BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		70F292A02CC4CB5A009A03BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicNix/PicNix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicNix/Preview Content\"";
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70F292A12CC4CB5A009A03BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicNix/PicNix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicNix/Preview Content\"";
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		70F292A32CC4CB5A009A03BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicNix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicNix";
+			};
+			name = Debug;
+		};
+		70F292A42CC4CB5A009A03BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicNix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PicNix";
+			};
+			name = Release;
+		};
+		70F292A62CC4CB5A009A03BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PicNix;
+			};
+			name = Debug;
+		};
+		70F292A72CC4CB5A009A03BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W7RFV8HVY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Assignment1.PicNixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PicNix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F292752CC4CB59009A03BA /* Build configuration list for PBXProject "PicNix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F2929D2CC4CB5A009A03BA /* Debug */,
+				70F2929E2CC4CB5A009A03BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F2929F2CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F292A02CC4CB5A009A03BA /* Debug */,
+				70F292A12CC4CB5A009A03BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F292A22CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F292A32CC4CB5A009A03BA /* Debug */,
+				70F292A42CC4CB5A009A03BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F292A52CC4CB5A009A03BA /* Build configuration list for PBXNativeTarget "PicNixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F292A62CC4CB5A009A03BA /* Debug */,
+				70F292A72CC4CB5A009A03BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F292722CC4CB59009A03BA /* Project object */;
+}
