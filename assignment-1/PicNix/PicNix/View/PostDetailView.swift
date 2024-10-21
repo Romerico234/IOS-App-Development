@@ -2,41 +2,46 @@
 //  PostDetailView.swift
 //  PicNix
 //
-//  Created by Romerico David on 10/19/24.
+//  Created by Romerico David on 10/20/24.
 //
 
 import SwiftUI
 
 struct PostDetailView: View {
-    let post: PicNixPost
-    @Environment(\.presentationMode) var presentationMode
-    
+    var post: Post
+
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 10) {
             HStack {
+                Text("Username: \(post.username)")
                 Spacer()
-                Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                }) {
+                Button(action: { /* Dismiss action */ }) {
                     Image(systemName: "xmark")
                         .padding()
                 }
             }
-            VStack(alignment: .leading) {
-                Text("Username: \(post.username)")
-                Text("Points: \(post.points)")
-                AsyncImage(url: URL(string: post.imageUrl))
-                    .aspectRatio(contentMode: .fit)
-                Text("Restaurant: \(post.restaurantName)")
-                Text("Date: \(formattedDate(from: post.timeAgo))")
-                Text(post.caption ?? "No Caption for this post")
+            
+            Text("Points: \(post.points)")
+            AsyncImage(url: URL(string: post.imageURL))
+                .frame(width: 200, height: 200)
+            
+            Text("Restaurant: \(post.restaurantName)")
+            
+            Text("Posted on: \(post.formattedTimestamp())")
+            
+            if let caption = post.caption, !caption.isEmpty {
+                Text("Caption: \(caption)")
+            } else {
+                Text("No Caption for this post")
             }
-            .padding()
         }
+        .padding()
     }
-    
-    private func formattedDate(from timestamp: Double) -> String {
-        let date = Date(timeIntervalSince1970: timestamp)
+}
+
+extension Post {
+    func formattedTimestamp() -> String {
+        let date = Date(timeIntervalSince1970: TimeInterval(self.timestamp))
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
         return formatter.string(from: date)

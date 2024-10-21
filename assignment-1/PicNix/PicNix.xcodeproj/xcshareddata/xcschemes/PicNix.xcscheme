@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70C136332CC6109E00CEE7F5"
+               BlueprintIdentifier = "70C1367C2CC614DA00CEE7F5"
                BuildableName = "PicNix.app"
                BlueprintName = "PicNix"
                ReferencedContainer = "container:PicNix.xcodeproj">
@@ -35,7 +35,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70C136492CC610A000CEE7F5"
+               BlueprintIdentifier = "70C136922CC614DD00CEE7F5"
                BuildableName = "PicNixTests.xctest"
                BlueprintName = "PicNixTests"
                ReferencedContainer = "container:PicNix.xcodeproj">
@@ -46,7 +46,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70C136532CC610A000CEE7F5"
+               BlueprintIdentifier = "70C1369C2CC614DD00CEE7F5"
                BuildableName = "PicNixUITests.xctest"
                BlueprintName = "PicNixUITests"
                ReferencedContainer = "container:PicNix.xcodeproj">
@@ -68,7 +68,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70C136332CC6109E00CEE7F5"
+            BlueprintIdentifier = "70C1367C2CC614DA00CEE7F5"
             BuildableName = "PicNix.app"
             BlueprintName = "PicNix"
             ReferencedContainer = "container:PicNix.xcodeproj">
@@ -92,7 +92,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70C136332CC6109E00CEE7F5"
+            BlueprintIdentifier = "70C1367C2CC614DA00CEE7F5"
             BuildableName = "PicNix.app"
             BlueprintName = "PicNix"
             ReferencedContainer = "container:PicNix.xcodeproj">

@@ -13,7 +13,8 @@ class PostViewModel: ObservableObject {
     @Published var isLoading = false
 
     func fetchPosts() {
-        guard let url = URL(string: "www.jalirani.com/files/picnix.json") else { return }
+        guard let url = URL(string: "https://www.jalirani.com/files/picnix.json") else { return }
+
         
         self.isLoading = true
         
@@ -23,7 +24,7 @@ class PostViewModel: ObservableObject {
                 if let data = data {
                     do {
                         var decodedData = try JSONDecoder().decode([Post].self, from: data)
-                        decodedData = decodedData.filter { !$0.isPrivate && !self.isCorrupt($0) } 
+                        decodedData = decodedData.filter { !$0.isPrivate && !self.isCorrupt($0) }
                         self.posts = decodedData
                     } catch {
                         print("Error decoding JSON: \(error.localizedDescription)")
