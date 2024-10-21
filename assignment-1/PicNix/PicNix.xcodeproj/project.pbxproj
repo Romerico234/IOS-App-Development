@@ -7,60 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70C136812CC614DA00CEE7F5 /* PicNixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136802CC614DA00CEE7F5 /* PicNixApp.swift */; };
-		70C1368A2CC614DC00CEE7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C136892CC614DC00CEE7F5 /* Assets.xcassets */; };
-		70C136B42CC6152400CEE7F5 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136B32CC6152400CEE7F5 /* PostViewModel.swift */; };
-		70C136B62CC6154000CEE7F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136B52CC6154000CEE7F5 /* Post.swift */; };
-		70C136B82CC6154F00CEE7F5 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136B72CC6154F00CEE7F5 /* PostDetailView.swift */; };
-		70C136BA2CC6155800CEE7F5 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136B92CC6155800CEE7F5 /* PostListView.swift */; };
+		70C136CC2CC61B9100CEE7F5 /* PicNixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136CB2CC61B9100CEE7F5 /* PicNixApp.swift */; };
+		70C136CE2CC61B9100CEE7F5 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136CD2CC61B9100CEE7F5 /* PostListView.swift */; };
+		70C136D02CC61B9300CEE7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C136CF2CC61B9300CEE7F5 /* Assets.xcassets */; };
+		70C136D42CC61B9300CEE7F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C136D32CC61B9300CEE7F5 /* Preview Assets.xcassets */; };
+		70C136F72CC61CD000CEE7F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136F62CC61CD000CEE7F5 /* Post.swift */; };
+		70C136FB2CC6398900CEE7F5 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136FA2CC6398800CEE7F5 /* PostListViewModel.swift */; };
+		70C136FD2CC639A400CEE7F5 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C136FC2CC639A400CEE7F5 /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70C136942CC614DD00CEE7F5 /* PBXContainerItemProxy */ = {
+		70C136DA2CC61B9300CEE7F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 70C136752CC614DA00CEE7F5 /* Project object */;
+			containerPortal = 70C136C02CC61B9100CEE7F5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70C1367C2CC614DA00CEE7F5;
+			remoteGlobalIDString = 70C136C72CC61B9100CEE7F5;
 			remoteInfo = PicNix;
 		};
-		70C1369E2CC614DD00CEE7F5 /* PBXContainerItemProxy */ = {
+		70C136E42CC61B9300CEE7F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 70C136752CC614DA00CEE7F5 /* Project object */;
+			containerPortal = 70C136C02CC61B9100CEE7F5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70C1367C2CC614DA00CEE7F5;
+			remoteGlobalIDString = 70C136C72CC61B9100CEE7F5;
 			remoteInfo = PicNix;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		70C1367D2CC614DA00CEE7F5 /* PicNix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicNix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		70C136802CC614DA00CEE7F5 /* PicNixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNixApp.swift; sourceTree = "<group>"; };
-		70C136892CC614DC00CEE7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		70C1368E2CC614DC00CEE7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70C136932CC614DD00CEE7F5 /* PicNixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		70C1369D2CC614DD00CEE7F5 /* PicNixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		70C136B32CC6152400CEE7F5 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
-		70C136B52CC6154000CEE7F5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		70C136B72CC6154F00CEE7F5 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
-		70C136B92CC6155800CEE7F5 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		70C136C82CC61B9100CEE7F5 /* PicNix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicNix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C136CB2CC61B9100CEE7F5 /* PicNixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicNixApp.swift; sourceTree = "<group>"; };
+		70C136CD2CC61B9100CEE7F5 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		70C136CF2CC61B9300CEE7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C136D12CC61B9300CEE7F5 /* PicNix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicNix.entitlements; sourceTree = "<group>"; };
+		70C136D32CC61B9300CEE7F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70C136D92CC61B9300CEE7F5 /* PicNixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C136E32CC61B9300CEE7F5 /* PicNixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicNixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C136F62CC61CD000CEE7F5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		70C136FA2CC6398800CEE7F5 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		70C136FC2CC639A400CEE7F5 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70C1367A2CC614DA00CEE7F5 /* Frameworks */ = {
+		70C136C52CC61B9100CEE7F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C136902CC614DD00CEE7F5 /* Frameworks */ = {
+		70C136D62CC61B9300CEE7F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C1369A2CC614DD00CEE7F5 /* Frameworks */ = {
+		70C136E02CC61B9300CEE7F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,72 +72,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		70C136742CC614DA00CEE7F5 = {
+		70C136BF2CC61B9100CEE7F5 = {
 			isa = PBXGroup;
 			children = (
-				70C1367F2CC614DA00CEE7F5 /* PicNix */,
-				70C1367E2CC614DA00CEE7F5 /* Products */,
+				70C136CA2CC61B9100CEE7F5 /* PicNix */,
+				70C136C92CC61B9100CEE7F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		70C1367E2CC614DA00CEE7F5 /* Products */ = {
+		70C136C92CC61B9100CEE7F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70C1367D2CC614DA00CEE7F5 /* PicNix.app */,
-				70C136932CC614DD00CEE7F5 /* PicNixTests.xctest */,
-				70C1369D2CC614DD00CEE7F5 /* PicNixUITests.xctest */,
+				70C136C82CC61B9100CEE7F5 /* PicNix.app */,
+				70C136D92CC61B9300CEE7F5 /* PicNixTests.xctest */,
+				70C136E32CC61B9300CEE7F5 /* PicNixUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70C1367F2CC614DA00CEE7F5 /* PicNix */ = {
+		70C136CA2CC61B9100CEE7F5 /* PicNix */ = {
 			isa = PBXGroup;
 			children = (
-				70C136B22CC6150F00CEE7F5 /* ViewModel */,
-				70C136B12CC6150800CEE7F5 /* View */,
-				70C136B02CC6150200CEE7F5 /* Model */,
-				70C136802CC614DA00CEE7F5 /* PicNixApp.swift */,
-				70C136892CC614DC00CEE7F5 /* Assets.xcassets */,
-				70C1368E2CC614DC00CEE7F5 /* Info.plist */,
+				70C136FF2CC639BC00CEE7F5 /* Models */,
+				70C136FE2CC639B300CEE7F5 /* Views */,
+				70C137002CC639CC00CEE7F5 /* ViewModels */,
+				70C136CB2CC61B9100CEE7F5 /* PicNixApp.swift */,
+				70C136CF2CC61B9300CEE7F5 /* Assets.xcassets */,
+				70C136D12CC61B9300CEE7F5 /* PicNix.entitlements */,
+				70C136D22CC61B9300CEE7F5 /* Preview Content */,
 			);
 			path = PicNix;
 			sourceTree = "<group>";
 		};
-		70C136B02CC6150200CEE7F5 /* Model */ = {
+		70C136D22CC61B9300CEE7F5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				70C136B52CC6154000CEE7F5 /* Post.swift */,
+				70C136D32CC61B9300CEE7F5 /* Preview Assets.xcassets */,
 			);
-			path = Model;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		70C136B12CC6150800CEE7F5 /* View */ = {
+		70C136FE2CC639B300CEE7F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				70C136B72CC6154F00CEE7F5 /* PostDetailView.swift */,
-				70C136B92CC6155800CEE7F5 /* PostListView.swift */,
+				70C136CD2CC61B9100CEE7F5 /* PostListView.swift */,
+				70C136FC2CC639A400CEE7F5 /* PostDetailView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		70C136B22CC6150F00CEE7F5 /* ViewModel */ = {
+		70C136FF2CC639BC00CEE7F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				70C136B32CC6152400CEE7F5 /* PostViewModel.swift */,
+				70C136F62CC61CD000CEE7F5 /* Post.swift */,
 			);
-			path = ViewModel;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70C137002CC639CC00CEE7F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				70C136FA2CC6398800CEE7F5 /* PostListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70C1367C2CC614DA00CEE7F5 /* PicNix */ = {
+		70C136C72CC61B9100CEE7F5 /* PicNix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C136A72CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNix" */;
+			buildConfigurationList = 70C136ED2CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNix" */;
 			buildPhases = (
-				70C136792CC614DA00CEE7F5 /* Sources */,
-				70C1367A2CC614DA00CEE7F5 /* Frameworks */,
-				70C1367B2CC614DA00CEE7F5 /* Resources */,
+				70C136C42CC61B9100CEE7F5 /* Sources */,
+				70C136C52CC61B9100CEE7F5 /* Frameworks */,
+				70C136C62CC61B9100CEE7F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -143,69 +154,69 @@
 			);
 			name = PicNix;
 			productName = PicNix;
-			productReference = 70C1367D2CC614DA00CEE7F5 /* PicNix.app */;
+			productReference = 70C136C82CC61B9100CEE7F5 /* PicNix.app */;
 			productType = "com.apple.product-type.application";
 		};
-		70C136922CC614DD00CEE7F5 /* PicNixTests */ = {
+		70C136D82CC61B9300CEE7F5 /* PicNixTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C136AA2CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixTests" */;
+			buildConfigurationList = 70C136F02CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixTests" */;
 			buildPhases = (
-				70C1368F2CC614DD00CEE7F5 /* Sources */,
-				70C136902CC614DD00CEE7F5 /* Frameworks */,
-				70C136912CC614DD00CEE7F5 /* Resources */,
+				70C136D52CC61B9300CEE7F5 /* Sources */,
+				70C136D62CC61B9300CEE7F5 /* Frameworks */,
+				70C136D72CC61B9300CEE7F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				70C136952CC614DD00CEE7F5 /* PBXTargetDependency */,
+				70C136DB2CC61B9300CEE7F5 /* PBXTargetDependency */,
 			);
 			name = PicNixTests;
 			productName = PicNixTests;
-			productReference = 70C136932CC614DD00CEE7F5 /* PicNixTests.xctest */;
+			productReference = 70C136D92CC61B9300CEE7F5 /* PicNixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		70C1369C2CC614DD00CEE7F5 /* PicNixUITests */ = {
+		70C136E22CC61B9300CEE7F5 /* PicNixUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C136AD2CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixUITests" */;
+			buildConfigurationList = 70C136F32CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixUITests" */;
 			buildPhases = (
-				70C136992CC614DD00CEE7F5 /* Sources */,
-				70C1369A2CC614DD00CEE7F5 /* Frameworks */,
-				70C1369B2CC614DD00CEE7F5 /* Resources */,
+				70C136DF2CC61B9300CEE7F5 /* Sources */,
+				70C136E02CC61B9300CEE7F5 /* Frameworks */,
+				70C136E12CC61B9300CEE7F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				70C1369F2CC614DD00CEE7F5 /* PBXTargetDependency */,
+				70C136E52CC61B9300CEE7F5 /* PBXTargetDependency */,
 			);
 			name = PicNixUITests;
 			productName = PicNixUITests;
-			productReference = 70C1369D2CC614DD00CEE7F5 /* PicNixUITests.xctest */;
+			productReference = 70C136E32CC61B9300CEE7F5 /* PicNixUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		70C136752CC614DA00CEE7F5 /* Project object */ = {
+		70C136C02CC61B9100CEE7F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					70C1367C2CC614DA00CEE7F5 = {
+					70C136C72CC61B9100CEE7F5 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					70C136922CC614DD00CEE7F5 = {
+					70C136D82CC61B9300CEE7F5 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 70C1367C2CC614DA00CEE7F5;
+						TestTargetID = 70C136C72CC61B9100CEE7F5;
 					};
-					70C1369C2CC614DD00CEE7F5 = {
+					70C136E22CC61B9300CEE7F5 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 70C1367C2CC614DA00CEE7F5;
+						TestTargetID = 70C136C72CC61B9100CEE7F5;
 					};
 				};
 			};
-			buildConfigurationList = 70C136782CC614DA00CEE7F5 /* Build configuration list for PBXProject "PicNix" */;
+			buildConfigurationList = 70C136C32CC61B9100CEE7F5 /* Build configuration list for PBXProject "PicNix" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,35 +224,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 70C136742CC614DA00CEE7F5;
-			productRefGroup = 70C1367E2CC614DA00CEE7F5 /* Products */;
+			mainGroup = 70C136BF2CC61B9100CEE7F5;
+			productRefGroup = 70C136C92CC61B9100CEE7F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70C1367C2CC614DA00CEE7F5 /* PicNix */,
-				70C136922CC614DD00CEE7F5 /* PicNixTests */,
-				70C1369C2CC614DD00CEE7F5 /* PicNixUITests */,
+				70C136C72CC61B9100CEE7F5 /* PicNix */,
+				70C136D82CC61B9300CEE7F5 /* PicNixTests */,
+				70C136E22CC61B9300CEE7F5 /* PicNixUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		70C1367B2CC614DA00CEE7F5 /* Resources */ = {
+		70C136C62CC61B9100CEE7F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C1368A2CC614DC00CEE7F5 /* Assets.xcassets in Resources */,
+				70C136D42CC61B9300CEE7F5 /* Preview Assets.xcassets in Resources */,
+				70C136D02CC61B9300CEE7F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C136912CC614DD00CEE7F5 /* Resources */ = {
+		70C136D72CC61B9300CEE7F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C1369B2CC614DD00CEE7F5 /* Resources */ = {
+		70C136E12CC61B9300CEE7F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,26 +263,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		70C136792CC614DA00CEE7F5 /* Sources */ = {
+		70C136C42CC61B9100CEE7F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C136B62CC6154000CEE7F5 /* Post.swift in Sources */,
-				70C136B42CC6152400CEE7F5 /* PostViewModel.swift in Sources */,
-				70C136812CC614DA00CEE7F5 /* PicNixApp.swift in Sources */,
-				70C136B82CC6154F00CEE7F5 /* PostDetailView.swift in Sources */,
-				70C136BA2CC6155800CEE7F5 /* PostListView.swift in Sources */,
+				70C136F72CC61CD000CEE7F5 /* Post.swift in Sources */,
+				70C136CE2CC61B9100CEE7F5 /* PostListView.swift in Sources */,
+				70C136FB2CC6398900CEE7F5 /* PostListViewModel.swift in Sources */,
+				70C136FD2CC639A400CEE7F5 /* PostDetailView.swift in Sources */,
+				70C136CC2CC61B9100CEE7F5 /* PicNixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C1368F2CC614DD00CEE7F5 /* Sources */ = {
+		70C136D52CC61B9300CEE7F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C136992CC614DD00CEE7F5 /* Sources */ = {
+		70C136DF2CC61B9300CEE7F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,20 +292,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		70C136952CC614DD00CEE7F5 /* PBXTargetDependency */ = {
+		70C136DB2CC61B9300CEE7F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70C1367C2CC614DA00CEE7F5 /* PicNix */;
-			targetProxy = 70C136942CC614DD00CEE7F5 /* PBXContainerItemProxy */;
+			target = 70C136C72CC61B9100CEE7F5 /* PicNix */;
+			targetProxy = 70C136DA2CC61B9300CEE7F5 /* PBXContainerItemProxy */;
 		};
-		70C1369F2CC614DD00CEE7F5 /* PBXTargetDependency */ = {
+		70C136E52CC61B9300CEE7F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70C1367C2CC614DA00CEE7F5 /* PicNix */;
-			targetProxy = 70C1369E2CC614DD00CEE7F5 /* PBXContainerItemProxy */;
+			target = 70C136C72CC61B9100CEE7F5 /* PicNix */;
+			targetProxy = 70C136E42CC61B9300CEE7F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		70C136A52CC614DD00CEE7F5 /* Debug */ = {
+		70C136EB2CC61B9300CEE7F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,18 +357,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		70C136A62CC614DD00CEE7F5 /* Release */ = {
+		70C136EC2CC61B9300CEE7F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,73 +412,90 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		70C136A82CC614DD00CEE7F5 /* Debug */ = {
+		70C136EE2CC61B9300CEE7F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicNix/PicNix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicNix/Preview Content\"";
 				DEVELOPMENT_TEAM = MA838Z5Y89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicNix/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		70C136A92CC614DD00CEE7F5 /* Release */ = {
+		70C136EF2CC61B9300CEE7F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PicNix/PicNix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicNix/Preview Content\"";
 				DEVELOPMENT_TEAM = MA838Z5Y89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicNix/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		70C136AB2CC614DD00CEE7F5 /* Debug */ = {
+		70C136F12CC61B9300CEE7F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,9 +505,12 @@
 				DEVELOPMENT_TEAM = MA838Z5Y89;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNixTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,7 +518,7 @@
 			};
 			name = Debug;
 		};
-		70C136AC2CC614DD00CEE7F5 /* Release */ = {
+		70C136F22CC61B9300CEE7F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,9 +528,12 @@
 				DEVELOPMENT_TEAM = MA838Z5Y89;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNixTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +541,7 @@
 			};
 			name = Release;
 		};
-		70C136AE2CC614DD00CEE7F5 /* Debug */ = {
+		70C136F42CC61B9300CEE7F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,9 +549,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MA838Z5Y89;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNixUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -526,7 +563,7 @@
 			};
 			name = Debug;
 		};
-		70C136AF2CC614DD00CEE7F5 /* Release */ = {
+		70C136F52CC61B9300CEE7F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,9 +571,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MA838Z5Y89;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PicNix.PicNixUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,43 +588,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70C136782CC614DA00CEE7F5 /* Build configuration list for PBXProject "PicNix" */ = {
+		70C136C32CC61B9100CEE7F5 /* Build configuration list for PBXProject "PicNix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70C136A52CC614DD00CEE7F5 /* Debug */,
-				70C136A62CC614DD00CEE7F5 /* Release */,
+				70C136EB2CC61B9300CEE7F5 /* Debug */,
+				70C136EC2CC61B9300CEE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C136A72CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNix" */ = {
+		70C136ED2CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70C136A82CC614DD00CEE7F5 /* Debug */,
-				70C136A92CC614DD00CEE7F5 /* Release */,
+				70C136EE2CC61B9300CEE7F5 /* Debug */,
+				70C136EF2CC61B9300CEE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C136AA2CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixTests" */ = {
+		70C136F02CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70C136AB2CC614DD00CEE7F5 /* Debug */,
-				70C136AC2CC614DD00CEE7F5 /* Release */,
+				70C136F12CC61B9300CEE7F5 /* Debug */,
+				70C136F22CC61B9300CEE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C136AD2CC614DD00CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixUITests" */ = {
+		70C136F32CC61B9300CEE7F5 /* Build configuration list for PBXNativeTarget "PicNixUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70C136AE2CC614DD00CEE7F5 /* Debug */,
-				70C136AF2CC614DD00CEE7F5 /* Release */,
+				70C136F42CC61B9300CEE7F5 /* Debug */,
+				70C136F52CC61B9300CEE7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 70C136752CC614DA00CEE7F5 /* Project object */;
+	rootObject = 70C136C02CC61B9100CEE7F5 /* Project object */;
 }
