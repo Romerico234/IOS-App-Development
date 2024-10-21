@@ -18,8 +18,12 @@ struct PostListView: View {
                     .edgesIgnoringSafeArea(.all)
 
                 if viewModel.isLoading {
-                    ProgressView("Fetching new posts")
-                        .foregroundColor(.white)
+                    ZStack {
+                        Color.black.opacity(0.8)
+                        ProgressView("Fetching new posts")
+                            .foregroundColor(.white)
+                            .font(.title3)
+                    }
                 } else {
                     ScrollView {
                         LazyVStack(spacing: 16) {
@@ -45,7 +49,14 @@ struct PostListView: View {
                     }
                 }
             }
-            .navigationTitle("📸 PicNix")
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    HStack {
+                        Text("📸 PicNix")
+                            .font(.system(size: 30, weight: .bold))
+                    }
+                }
+            }
             .navigationBarTitleDisplayMode(.inline)
             .sheet(item: $selectedPost) { post in
                 PostDetailView(post: post)
