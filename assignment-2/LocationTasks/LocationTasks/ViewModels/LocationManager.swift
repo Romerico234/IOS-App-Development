@@ -25,7 +25,6 @@ class LocationManager: NSObject, ObservableObject {
         case .authorizedWhenInUse, .authorizedAlways:
             locationManager.startUpdatingLocation()
         default:
-            // Handle denied authorization
             break
         }
     }
